@@ -49,8 +49,7 @@ Java_com_example_data_1types_1native_MainActivity_JNIDouble(JNIEnv *env, jobject
 
 extern "C"
 JNIEXPORT jboolean JNICALL
-Java_com_example_data_1types_1native_MainActivity_JNIBoolean(JNIEnv *env, jobject thiz,
-                                                             jboolean data_bool) {
+Java_com_example_data_1types_1native_MainActivity_JNIBoolean(JNIEnv *env, jobject thiz, jboolean data_bool) {
     // TODO: implement JNIBoolean()
 
     bool data_cpp = data_bool;
